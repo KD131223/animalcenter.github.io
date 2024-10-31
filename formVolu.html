@@ -1,0 +1,53 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Center - Inscripción de Voluntarios</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Animal Center</h1>
+    </header>
+
+    <nav>
+        <a href="PAGINA PRINCIPAL.html">Inicio</a>
+        <a href="quienes-somos.html">¿Quiénes Somos?</a>
+        <a href="vision.html">Visión</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="voluntariado.html">Voluntariado</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <main>
+        <section>
+            <div class="card">
+                <h2>Inscripción como Voluntario</h2>
+                <p>Completa el siguiente formulario para inscribirte como voluntario y ayudar a nuestros amigos peludos.</p>
+                <form action="gracias.html" method="post"> <!-- Cambia la acción según sea necesario -->
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" required>
+
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" required>
+
+                    <label for="disponibilidad">Disponibilidad (días y horas):</label>
+                    <textarea id="disponibilidad" name="disponibilidad" required></textarea>
+
+                    <input type="submit" value="Enviar Inscripción" class="btn-submit">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Animal Center. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
